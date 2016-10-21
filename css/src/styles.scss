@@ -34,4 +34,34 @@ text-transform: uppercase;
 font-weight: bold;
 padding: 1em;
 }
+
+.image-container{
+  position: relative;
+  .caption{
+    position: absolute;
+    bottom: 1em;
+    left: 2em;
+    text-align: left;
+}
+
+  .likes {
+    position: absolute;
+    bottom: 1em;
+    right:1em;
+    font-size: 1.8em;
+
+   i {
+     margin-right: 0.1em;
+   }
+  }
+
+  .edit{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 2em;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0.3em;
+    }
+}
 }
