@@ -4,7 +4,6 @@ color: $light-font-color;
 text-align: center;
 padding: 3em 0;
 
-
 nav a {
 color: $light-font-color;
 text-decoration:none;
@@ -24,8 +23,9 @@ p{
   margin-top: 0;
 }
 a.action {
-background-color: #4BD9DD;
+background-color: $secondary-color;
 width: 12em;
+margin-bottom: 2em;
 }
 
 .image-container{
