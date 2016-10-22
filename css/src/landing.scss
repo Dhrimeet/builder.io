@@ -3,7 +3,7 @@ background-color: $primary-color;
 color: $light-font-color;
 text-align: center;
 padding: 3em 0;
-margin-left: 1.5em;
+
 
 nav a {
 color: $light-font-color;
@@ -21,7 +21,6 @@ margin-top: 2em;
 p{
   font-size: 1.3em;
   margin: 1em,0;
-  margin-bottom: 4em;
   margin-top: 0;
 }
 a.action {
@@ -34,9 +33,7 @@ width: 12em;
   .caption{
     position: absolute;
     bottom: 1em;
-    left: 2em;
-    text-align: left;
-    margin-bottom: 5em;
+    left:1em;
 }
 
   .likes {
@@ -44,12 +41,6 @@ width: 12em;
     bottom: 1em;
     right:1em;
     font-size: 1em;
-    margin-bottom: 27.5em;
-
-
-  //  i {
-  //    margin-right: 0.1em;
-  //  }
   }
 
   .edit{
